@@ -9,26 +9,58 @@ import android.widget.GridView;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
-  public GridView gridview;
 
-  private AdapterView.OnItemClickListener onitemclick = new AdapterView.OnItemClickListener() {
+    private GridView gridview;
+
     @Override
-    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-      Intent intent = new Intent(getBaseContext(), ViewArticleActivity.class);
-      intent.putExtra("id", gridview.getAdapter().getItemId(position));
-      startActivity(intent);
+    protected void onCreate(Bundle savedInstanceState) {
+
+        super.onCreate(savedInstanceState);
+
+        setContentView(R.layout.activity_main);
+
+        if (getSupportActionBar() != null) {
+            getSupportActionBar().hide();
+        }
+
+        gridview =
+                findViewById(R.id.gridview);
+
+        UserData userData =
+                new UserData(
+                        getBaseContext(),
+                        gridview
+                );
+
+        userData.loadData(
+                "https://raw.githubusercontent.com/olivvv-1009/PhotoApp/refs/heads/master/users.json",
+                this
+        );
+
+        gridview.setOnItemClickListener(
+                new AdapterView.OnItemClickListener() {
+
+                    @Override
+                    public void onItemClick(
+                            AdapterView<?> parent,
+                            View view,
+                            int position,
+                            long id) {
+
+                        Intent intent =
+                                new Intent(
+                                        MainActivity.this,
+                                        ViewUserActivity.class
+                                );
+
+                        intent.putExtra(
+                                "id",
+                                (int) id
+                        );
+
+                        startActivity(intent);
+                    }
+                }
+        );
     }
-  };
-
-  @Override
-  protected void onCreate(Bundle savedInstanceState) {
-    super.onCreate(savedInstanceState);
-    setContentView(R.layout.activity_main);
-    getSupportActionBar().hide();
-
-    gridview = findViewById(R.id.gridview);
-    new ArticleData(getBaseContext(), gridview).loadData("https://raw.githubusercontent.com/thanhdnh/json/main/products.json", this);
-    gridview.setOnItemClickListener(onitemclick);
-  }
-
 }
