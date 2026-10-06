@@ -1,0 +1,44 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "uname": "user01",
+      "password": "123456",
+      "me-profile": "Student",
+      "short-bio": "Android development student",
+      "image": "https://images.unsplash.com/photo-1740252117070-7aa2955b25f8?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "id": 2,
+      "uname": "user02",
+      "password": "123456",
+      "me-profile": "Software Engineer",
+      "short-bio": "Interested in mobile applications",
+      "image": "https://images.unsplash.com/photo-1740252117013-4fb21771e7ca?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "id": 3,
+      "uname": "user03",
+      "password": "123456",
+      "me-profile": "Designer",
+      "short-bio": "Enjoys UI and UX design",
+      "image": "https://images.unsplash.com/photo-1740252117027-4275d3f84385?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "id": 4,
+      "uname": "user04",
+      "password": "123456",
+      "me-profile": "Developer",
+      "short-bio": "Learning Android and Java",
+      "image": "https://images.unsplash.com/photo-1740252117044-2af197eea287?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "id": 5,
+      "uname": "user05",
+      "password": "123456",
+      "me-profile": "Student",
+      "short-bio": "Learning programming and web development",
+      "image": "https://images.unsplash.com/photo-1772371272228-f4a8247cfe6d?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    }
+  ]
+}
