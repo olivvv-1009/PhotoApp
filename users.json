@@ -1,0 +1,39 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "uname": "user01",
+      "password": "123456",
+      "me-profile": "Student",
+      "short-bio": "Android development student"
+    },
+    {
+      "id": 2,
+      "uname": "user02",
+      "password": "123456",
+      "me-profile": "Software Engineer",
+      "short-bio": "Interested in mobile applications"
+    },
+    {
+      "id": 3,
+      "uname": "user03",
+      "password": "123456",
+      "me-profile": "Designer",
+      "short-bio": "Enjoys UI and UX design"
+    },
+    {
+      "id": 4,
+      "uname": "user04",
+      "password": "123456",
+      "me-profile": "Developer",
+      "short-bio": "Learning Android and Java"
+    },
+    {
+      "id": 5,
+      "uname": "user05",
+      "password": "123456",
+      "me-profile": "Student",
+      "short-bio": "Learning programming and web development"
+    }
+  ]
+}
