@@ -5,35 +5,40 @@
       "uname": "user01",
       "password": "123456",
       "me-profile": "Student",
-      "short-bio": "Android development student"
+      "short-bio": "Android development student",
+      "image": "user01.jpg"
     },
     {
       "id": 2,
       "uname": "user02",
       "password": "123456",
       "me-profile": "Software Engineer",
-      "short-bio": "Interested in mobile applications"
+      "short-bio": "Interested in mobile applications",
+      "image": "user02.jpg"
     },
     {
       "id": 3,
       "uname": "user03",
       "password": "123456",
       "me-profile": "Designer",
-      "short-bio": "Enjoys UI and UX design"
+      "short-bio": "Enjoys UI and UX design",
+      "image": "user03.jpg"
     },
     {
       "id": 4,
       "uname": "user04",
       "password": "123456",
       "me-profile": "Developer",
-      "short-bio": "Learning Android and Java"
+      "short-bio": "Learning Android and Java",
+      "image": "user04.jpg"
     },
     {
       "id": 5,
       "uname": "user05",
       "password": "123456",
       "me-profile": "Student",
-      "short-bio": "Learning programming and web development"
+      "short-bio": "Learning programming and web development",
+      "image": "user05.jpg"
     }
   ]
 }
